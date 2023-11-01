@@ -17,10 +17,11 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #e5e5e5;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
+	color: #202124;
 }
 
 .obal {
@@ -31,3 +32,81 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+.menu {
+	display: flex;
+}
+
+.menu {
+	padding: 19px;
+	margin-bottom: 0;
+}
+
+.menu li {
+	list-style-type: none;
+}
+
+.menu a {
+	padding: 20px 35px;
+	text-decoration: none;
+	color: #202124;
+}
+
+.logo {
+	margin-right: 40px;
+	color: #25133d;
+	font-weight: 700;
+}
+
+a:hover,
+a:focus,
+a:active {
+	background-color:#48418e;
+	color: white;
+}
+
+.banner {
+	padding: 20px;
+	background-image: url(images/pozadi.jpg);
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+
+.banner h1 {
+	font-size: 90px;
+	font-weight: 400;
+	margin: 0;
+	color: white;
+}
+.banner p {
+	color: white;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.banner img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.banner a {
+	font-size: 20px;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: #202124;
+	border-radius: 1em;
+	border: 1px solid white;
+	margin-right: 20px;
+
+}
+
+.banner a:hover,
+.banner a:focus,
+.banner a:active {
+	background-color:#48418e;
+	color: white;
+}
+
