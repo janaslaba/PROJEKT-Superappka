@@ -110,3 +110,34 @@ a:active {
 	color: white;
 }
 
+.sluzby {
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	justify-items: center;
+	align-items: center;
+}
+
+.sluzby img {
+	width: 50%;
+}
+
+.sluzby h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #25133d;
+
+}
+
+.bubliny {
+	padding: 30px;
+	text-align: center;
+}
+
+footer {
+	background-color:   #48418e;
+	color: white;
+	height: 30px;
+	text-align: center;
+}
